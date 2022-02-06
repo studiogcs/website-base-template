@@ -1,7 +1,7 @@
 # Website base template
 This is a skeleton project for a dockerized Django web app. It mostly draws from Michael Herman's [Dockerizing Django with Postgres, Gunicorn and Nginx](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/), with minor structure changes and additions. The final setup includes a generic website ("blog") with separate "homepage" app. The purpose is to accelerate website development using Django, Postgres, Docker, Gunicorn, Nginx. 
 
-Individual portions can be viewed on the following separate branches. 
+Individual portions can be viewed on the following branches. 
 
 ## 0. Local development environment setup
 This branch contains the setup for basic Docker containers serving Postgres and the Django web app. The user needs to create a local .env.dev file with the following environment variables:
